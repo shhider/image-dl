@@ -1,0 +1,29 @@
+{
+  "name": "image-dl",
+  "version": "0.1.0",
+  "description": "node cli for downloading images in batches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shhider/image-dl.git"
+  },
+  "keywords": [
+    "download",
+    "images",
+    "batch"
+  ],
+  "author": "shhider <shhider@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shhider/image-dl/issues"
+  },
+  "homepage": "https://github.com/shhider/image-dl#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0"
+  }
+}
